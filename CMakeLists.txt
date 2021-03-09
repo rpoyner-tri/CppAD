@@ -265,6 +265,9 @@ optional_package(sacado ${system_include} "sacado install prefix")
 # fadbad_prefix
 optional_package(fadbad ${system_include} "fadbad install prefix")
 #
+# eigen3_prefix is for eigen3 speed experiments
+SET(eigen3_prefix "/usr")
+#
 # xpackage_prefix is an example package prefix that is not really used
 SET(xpackage_prefix "/usr")
 # -----------------------------------------------------------------------------

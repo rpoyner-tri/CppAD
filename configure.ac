@@ -698,6 +698,7 @@ AC_CONFIG_FILES([
     speed/sacado/makefile
     speed/src/makefile
     speed/xpackage/makefile
+    speed/eigen3/makefile
     test_more/compare_c/makefile
     test_more/general/makefile
     test_more/deprecated/makefile

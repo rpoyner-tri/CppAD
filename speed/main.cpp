@@ -49,6 +49,9 @@ in the Eclipse Public License, Version 2.0 are satisfied:
 # ifdef CPPAD_XPACKAGE_SPEED
 # define AD_PACKAGE "xpackage"
 # endif
+# ifdef CPPAD_EIGEN3_SPEED
+# define AD_PACKAGE "eigen3"
+# endif
 
 /*
 $begin speed_main$$

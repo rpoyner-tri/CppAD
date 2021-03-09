@@ -110,11 +110,11 @@ am__v_P_1 = :
 AM_V_GEN = $(am__v_GEN_@AM_V@)
 am__v_GEN_ = $(am__v_GEN_@AM_DEFAULT_V@)
 am__v_GEN_0 = @echo "  GEN     " $@;
-am__v_GEN_1 = 
+am__v_GEN_1 =
 AM_V_at = $(am__v_at_@AM_V@)
 am__v_at_ = $(am__v_at_@AM_DEFAULT_V@)
 am__v_at_0 = @
-am__v_at_1 = 
+am__v_at_1 =
 SOURCES =
 DIST_SOURCES =
 RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \
@@ -193,6 +193,7 @@ CSCOPE = cscope
 DIST_SUBDIRS = cppad_ipopt/src example/ipopt_solve cppad_ipopt/example \
 	cppad_ipopt/speed cppad_ipopt/test speed/src speed/adolc \
 	speed/cppad speed/double speed/example speed/xpackage \
+	speed/eigen3 \
 	speed/fadbad speed/sacado cppad_lib example/abs_normal \
 	example/atomic_two example/atomic_three test_more/deprecated \
 	test_more/deprecated/atomic_two example/general \
@@ -419,19 +420,19 @@ top_srcdir = @top_srcdir@
 # -----------------------------------------------------------------------------
 #
 @CppAD_POSTFIX_TRUE@postfix_dir = $(POSTFIX_DIR)
-@CppAD_ADOLC_FALSE@SPEED_ADOLC_TESTS = 
+@CppAD_ADOLC_FALSE@SPEED_ADOLC_TESTS =
 #
 # Did user specify a value for ADOLC_DIR in configure command line
 @CppAD_ADOLC_TRUE@SPEED_ADOLC_TESTS = speed/adolc
-@CppAD_FADBAD_FALSE@SPEED_FADBAD_TESTS = 
+@CppAD_FADBAD_FALSE@SPEED_FADBAD_TESTS =
 #
 # Did user specify a value for FADBAD_DIR in configure command line
 @CppAD_FADBAD_TRUE@SPEED_FADBAD_TESTS = speed/fadbad
-@CppAD_SACADO_FALSE@SPEED_SACADO_TESTS = 
+@CppAD_SACADO_FALSE@SPEED_SACADO_TESTS =
 #
 # Did user specify a value for SACADO_DIR in configure command line
 @CppAD_SACADO_TRUE@SPEED_SACADO_TESTS = speed/sacado
-@CppAD_IPOPT_FALSE@IPOPT_TESTS = 
+@CppAD_IPOPT_FALSE@IPOPT_TESTS =
 #
 # Did user specify a value for IPOPT_DIR in configure command line
 @CppAD_IPOPT_TRUE@IPOPT_TESTS = \
@@ -440,13 +441,13 @@ top_srcdir = @top_srcdir@
 @CppAD_IPOPT_TRUE@	cppad_ipopt/speed \
 @CppAD_IPOPT_TRUE@	cppad_ipopt/test
 
-@CppAD_IPOPT_FALSE@IPOPT_DIRS = 
+@CppAD_IPOPT_FALSE@IPOPT_DIRS =
 #
 @CppAD_IPOPT_TRUE@IPOPT_DIRS = \
 @CppAD_IPOPT_TRUE@	cppad_ipopt/src \
 @CppAD_IPOPT_TRUE@	$(IPOPT_TESTS)
 
-@CppAD_IPOPT_FALSE@IPOPT_HEADER = 
+@CppAD_IPOPT_FALSE@IPOPT_HEADER =
 #
 @CppAD_IPOPT_TRUE@IPOPT_HEADER = \
 @CppAD_IPOPT_TRUE@	cppad_ipopt/src/cppad_ipopt_nlp.hpp
@@ -459,6 +460,7 @@ SPEED_TESTS = \
 	speed/double \
 	speed/example \
 	speed/xpackage \
+	speed/eigen3 \
 	$(SPEED_FADBAD_TESTS) \
 	$(SPEED_SACADO_TESTS)
 

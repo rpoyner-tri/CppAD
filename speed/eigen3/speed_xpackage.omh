@@ -1,0 +1,84 @@
+/* --------------------------------------------------------------------------
+CppAD: C++ Algorithmic Differentiation: Copyright (C) 2003-20 Bradley M. Bell
+
+  CppAD is distributed under the terms of the
+               Eclipse Public License Version 2.0.
+
+  This Source Code may also be made available under the following
+  Secondary License when the conditions for such availability set forth
+  in the Eclipse Public License, Version 2.0 are satisfied:
+        GNU General Public License, Version 2.0 or later.
+-------------------------------------------------------------------------- */
+
+$begin speed_eigen3$$
+$dollar @$$
+$spell
+    eigen3
+    CppAD
+    grep
+    cp
+    ls
+    sed
+$$
+
+
+$section Speed Test Example and Template for a New Package$$
+
+$head Purpose$$
+CppAD has a set of speed tests that are used to compare
+AD packages.
+This section can be used as a starting point for linking a new package
+to he CppAD speed tests.
+
+$head Files$$
+Use the following command, in the
+$cref/distribution directory/download/Distribution Directory/$$,
+to see which files link the example package $code eigen3$$
+to the speed tests:
+$codei%
+    git grep -l eigen3
+%$$
+
+$head Template$$
+Suppose $icode your_package$$ is the name of a package you
+want to add to the speed tests.
+If you are using a Unix system,
+executing the following commands in the distribution directory
+will use $code eigen3$$ as a template for your package:
+$codei%
+    cp -r speed/eigen3 speed/%your_package%
+    for file in `ls speed/%your_package%`
+    do
+        sed -i speed/%your_package%/@file -e 's|eigen3|%your_package%|'
+    done
+%$$
+where $icode your_package$$ has been replaced by the name of the new package.
+
+
+$head Running Tests$$
+To build the eigen3 version of the tests,
+execute the following commands starting in the
+$cref/build directory/cmake/Build Directory/$$:
+$codei%
+    cd speed/eigen3
+    make check_speed_eigen3 VERBOSE=1
+%$$
+You can then run the corresponding speed tests
+with the following command
+$codei%
+    ./speed_eigen3 speed %seed%
+%$$
+where $icode seed$$ is a positive integer.
+See $cref speed_main$$ for more options.
+
+$contents%
+    speed/eigen3/det_minor.cpp%
+    speed/eigen3/det_lu.cpp%
+    speed/eigen3/mat_mul.cpp%
+    speed/eigen3/ode.cpp%
+    speed/eigen3/poly.cpp%
+    speed/eigen3/sparse_hessian.cpp%
+    speed/eigen3/sparse_jacobian.cpp
+%$$
+
+$end
