@@ -101,8 +101,8 @@ namespace CppAD {
         unary operators
         */
         const NumericType check_NumericType_unary_plus(1);
-        NumericType check_NumericType_unary_plus_result =
-            + check_NumericType_unary_plus;
+        // NumericType check_NumericType_unary_plus_result =
+        //     + check_NumericType_unary_plus;
 
         const NumericType check_NumericType_unary_minus(1);
         NumericType check_NumericType_unary_minus_result =
@@ -150,21 +150,37 @@ namespace CppAD {
         use all values so as to avoid warnings
         */
         check_NumericType_default_constructor = x;
+        // return
+        //     + check_NumericType_default_constructor
+        //     + check_NumericType_constructor_from_int
+        //     + check_NumericType_copy_constructor
+        //     + check_NumericType_assignment
+        //     // + check_NumericType_unary_plus_result
+        //     + check_NumericType_unary_minus_result
+        //     + check_NumericType_binary_addition_result
+        //     + check_NumericType_binary_subtraction_result
+        //     + check_NumericType_binary_multiplication_result
+        //     + check_NumericType_binary_division_result
+        //     + check_NumericType_computed_assignment_addition
+        //     + check_NumericType_computed_assignment_subtraction
+        //     + check_NumericType_computed_assignment_multiplication
+        //     + check_NumericType_computed_assignment_division
+        // ;
         return
-            + check_NumericType_default_constructor
-            + check_NumericType_constructor_from_int
-            + check_NumericType_copy_constructor
-            + check_NumericType_assignment
-            + check_NumericType_unary_plus_result
-            + check_NumericType_unary_minus_result
-            + check_NumericType_binary_addition_result
-            + check_NumericType_binary_subtraction_result
-            + check_NumericType_binary_multiplication_result
-            + check_NumericType_binary_division_result
-            + check_NumericType_computed_assignment_addition
-            + check_NumericType_computed_assignment_subtraction
-            + check_NumericType_computed_assignment_multiplication
-            + check_NumericType_computed_assignment_division
+            - check_NumericType_default_constructor
+            - check_NumericType_constructor_from_int
+            - check_NumericType_copy_constructor
+            - check_NumericType_assignment
+            // + check_NumericType_unary_plus_result
+            - check_NumericType_unary_minus_result
+            - check_NumericType_binary_addition_result
+            - check_NumericType_binary_subtraction_result
+            - check_NumericType_binary_multiplication_result
+            - check_NumericType_binary_division_result
+            - check_NumericType_computed_assignment_addition
+            - check_NumericType_computed_assignment_subtraction
+            - check_NumericType_computed_assignment_multiplication
+            - check_NumericType_computed_assignment_division
         ;
     }
 # endif
