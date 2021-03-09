@@ -699,6 +699,7 @@ AC_CONFIG_FILES([
     speed/src/makefile
     speed/xpackage/makefile
     speed/eigen3/makefile
+    speed/drake/makefile
     test_more/compare_c/makefile
     test_more/general/makefile
     test_more/deprecated/makefile

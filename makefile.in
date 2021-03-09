@@ -194,6 +194,7 @@ DIST_SUBDIRS = cppad_ipopt/src example/ipopt_solve cppad_ipopt/example \
 	cppad_ipopt/speed cppad_ipopt/test speed/src speed/adolc \
 	speed/cppad speed/double speed/example speed/xpackage \
 	speed/eigen3 \
+	speed/drake \
 	speed/fadbad speed/sacado cppad_lib example/abs_normal \
 	example/atomic_two example/atomic_three test_more/deprecated \
 	test_more/deprecated/atomic_two example/general \
@@ -461,6 +462,7 @@ SPEED_TESTS = \
 	speed/example \
 	speed/xpackage \
 	speed/eigen3 \
+	speed/drake \
 	$(SPEED_FADBAD_TESTS) \
 	$(SPEED_SACADO_TESTS)
 

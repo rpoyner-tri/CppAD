@@ -268,6 +268,10 @@ optional_package(fadbad ${system_include} "fadbad install prefix")
 # eigen3_prefix is for eigen3 speed experiments
 SET(eigen3_prefix "/usr")
 #
+# drake_prefix is for drake speed experiments
+find_package(drake CONFIG REQUIRED)
+SET(drake_prefix "/usr")
+#
 # xpackage_prefix is an example package prefix that is not really used
 SET(xpackage_prefix "/usr")
 # -----------------------------------------------------------------------------

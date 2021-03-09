@@ -52,6 +52,9 @@ in the Eclipse Public License, Version 2.0 are satisfied:
 # ifdef CPPAD_EIGEN3_SPEED
 # define AD_PACKAGE "eigen3"
 # endif
+# ifdef CPPAD_DRAKE_SPEED
+# define AD_PACKAGE "drake"
+# endif
 
 /*
 $begin speed_main$$

@@ -65,6 +65,7 @@ SPEED_TESTS = \
 	speed/example \
 	speed/xpackage \
 	speed/eigen3 \
+	speed/drake \
 	$(SPEED_FADBAD_TESTS) \
 	$(SPEED_SACADO_TESTS)
 #
