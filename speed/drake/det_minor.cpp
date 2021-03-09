@@ -98,21 +98,12 @@ bool link_det_minor(
         }
     }
     // ---------------------------------------------------------------------
-    //
-    // AD function mapping matrix to determinant
-    static CppAD::ADFun<double> static_f;
-    //
-    // size corresponding to static_f
-    static size_t static_size = 0;
-    //
     // number of independent variables
     size_t nx = size * size;
     using ADScalar = drake::AutoDiffXd;
     using ADVector = CppAD::vector<ADScalar>;
     ADVector   A(nx);        // AD domain space vector
     CppAD::det_by_minor<ADScalar> Det(size);
-    //
-    // CPPAD_ASSERT_UNKNOWN( job == "run" );
     while(repeat--)
     {   // get the next matrix
         CppAD::uniform_01(nx, matrix);

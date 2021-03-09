@@ -86,12 +86,6 @@ bool link_poly(
 
     // choose the polynomial coefficients
     CppAD::uniform_01(size, a);
-    // for (i = 0; i < size; i++) {
-    //   a[i] = 0;
-    //   if (i == 2) {
-    //     a[i] = 1;
-    //   }
-    // }
 
     // AD copy of the polynomial coefficients
     Eigen::DenseIndex deriv_num = 0;
@@ -109,12 +103,7 @@ bool link_poly(
         CppAD::uniform_01(1, z);
         Z[0] = ADScalar(z[0], n, deriv_num);
         assert(Z[0].derivatives().size() == n);
-        // Z2[0] = ??
         Z2[0] = AD2Scalar(Z[0], n, deriv_num);
-        // Z2[0].derivatives()(0).derivatives() = Z[0].derivatives();
-        // assert(Z2[0].derivatives().size() == n);
-        // assert(Z2[0].value().derivatives().size() == n);
-        // assert(Z2[0].derivatives()(0).derivatives().size() == n);
         Z2[0].derivatives()(0).value() = 1;
         Z2[0].value().derivatives()(0) = 1;
 
@@ -127,30 +116,6 @@ bool link_poly(
         } else {
           ddp[0] = 0.;
         }
-
-        // TODO: port second derivative
-
-        // // create function object f : A -> detA
-        // f.Dependent(Z, P);
-
-        // if( global_option["optimize"] )
-        //     f.optimize(optimize_options);
-
-        // // skip comparison operators
-        // f.compare_change_count(0);
-
-        // // pre-allocate memory for three forward mode calculations
-        // f.capacity_order(3);
-
-        // // evaluate the polynomial
-        // p = f.Forward(0, z);
-
-        // // evaluate first order Taylor coefficient
-        // dp = f.Forward(1, dz);
-
-        // // second derivative is twice second order Taylor coef
-        // ddp     = f.Forward(2, ddz);
-        // ddp[0] *= 2.;
     }
     size_t thread                   = CppAD::thread_alloc::thread_num();
     global_cppad_thread_alloc_inuse = CppAD::thread_alloc::inuse(thread);

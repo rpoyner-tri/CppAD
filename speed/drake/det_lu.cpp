@@ -71,9 +71,6 @@ bool link_det_lu(
         "no_conditional_skip no_compare_op no_print_for_op";
     // -----------------------------------------------------
     // setup
-    // typedef CppAD::AD<double>           ADScalar;
-    // typedef CppAD::vector<ADScalar>     ADVector;
-    // CppAD::det_by_lu<ADScalar>          Det(size);
     using ADScalar = drake::AutoDiffXd;
     using ADVector = CppAD::vector<ADScalar>;
     CppAD::det_by_lu<ADScalar> Det(size);
@@ -82,16 +79,6 @@ bool link_det_lu(
     size_t m = 1;           // number of dependent variables
     size_t n = size * size; // number of independent variables
     ADVector   A(n);        // AD domain space vector
-    // ADVector   detA(m);     // AD range space vector
-    // CppAD::ADFun<double> f; // AD function object
-
-    // vectors of reverse mode weights
-    CppAD::vector<double> w(1);
-    w[0] = 1.;
-
-    // do not even record comparison operators
-    size_t abort_op_index = 0;
-    bool record_compare   = false;
 
     // ------------------------------------------------------
     while(repeat--)
@@ -102,11 +89,6 @@ bool link_det_lu(
         for( i = 0; i < n; i++)
           A[i] = ADScalar(matrix[i], n, deriv_num++);
 
-        // declare independent variables
-        // Independent(A, abort_op_index, record_compare);
-
-        // Setup derivatives
-
         // AD computation of the determinant
         ADScalar result = Det(A);
         if (result.derivatives().size() != n) {
@@ -115,16 +97,6 @@ bool link_det_lu(
         for (i = 0; i < n; i++) {
           gradient[i] = result.derivatives()(i);
         }
-        //std::cerr << result.derivatives();
-
-        // create function object f : A -> detA
-        // f.Dependent(A, detA);
-        // if( global_option["optimize"] )
-        //     f.optimize(optimize_options);
-
-        // // evaluate and return gradient using reverse mode
-        // f.Forward(0, matrix);
-        // gradient = f.Reverse(1, w);
     }
     size_t thread                   = CppAD::thread_alloc::thread_num();
     global_cppad_thread_alloc_inuse = CppAD::thread_alloc::inuse(thread);

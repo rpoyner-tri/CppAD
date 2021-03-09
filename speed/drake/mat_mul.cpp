@@ -80,18 +80,6 @@ bool link_mat_mul(
     ADVector   Z(m);        // AD range space vector
     CppAD::ADFun<double> f; // AD function object
 
-    // vectors of reverse mode weights
-    CppAD::vector<double> w(1);
-    w[0] = 1.;
-
-    // atomic function information
-    CppAD::vector<ADScalar> ax(3 + 2 * n), ay(n);
-    atomic_mat_mul atom_mul;
-    //
-    // do not even record comparison operators
-    size_t abort_op_index = 0;
-    bool record_compare   = false;
-
     // ------------------------------------------------------
     while (repeat--)
     {   // get the next matrix

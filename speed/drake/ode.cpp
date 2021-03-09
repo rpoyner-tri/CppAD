@@ -97,8 +97,7 @@ bool link_ode(
         // evaluate function
         CppAD::ode_evaluate(X, p, Y);
 
-        // TODO: port this.
-        // jacobian = f.Jacobian(x);
+        // Copy out jacobian.
         for (int i = 0; i < size * size; i++) {
           int row = i / size;
           int col = i % size;
