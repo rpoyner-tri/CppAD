@@ -132,6 +132,12 @@ bool correct_poly(bool is_package_double)
     check = CppAD::Poly(k, a, z[0]);
 
     bool ok = CppAD::NearEqual(check, ddp[0], eps99, eps99);
+    if (!ok) {
+      std::cerr << "poly is not correct: check = " << check
+                <<  " ddp[0] = " << ddp[0]
+                << " eps99 =  " << eps99 << "\n";
+    }
+
     return ok;
 }
 // ---------------------------------------------------------------------------
