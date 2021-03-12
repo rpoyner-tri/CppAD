@@ -1,0 +1,518 @@
+
+=== Validate input. ===
+
+
+=== Validate environment. ===
+
+
+=== Validate sudo access, to avoid later interruptions. ===
+
+
+=== Install tools for CPU speed control. ===
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+linux-tools-4.15.0-136-generic is already the newest version (4.15.0-136.140).
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+
+=== Wait for lingering activity to subside. ===
+
+
+=== Control CPU speed variation. ===
+
+Setting cpu: 0
+Setting cpu: 1
+Setting cpu: 2
+Setting cpu: 3
+Setting cpu: 4
+Setting cpu: 5
+Setting cpu: 6
+Setting cpu: 7
+Setting cpu: 8
+Setting cpu: 9
+Setting cpu: 10
+Setting cpu: 11
+Setting cpu: 12
+Setting cpu: 13
+Setting cpu: 14
+Setting cpu: 15
+Setting cpu: 16
+Setting cpu: 17
+Setting cpu: 18
+Setting cpu: 19
+Setting cpu: 20
+Setting cpu: 21
+Setting cpu: 22
+Setting cpu: 23
+Setting cpu: 24
+Setting cpu: 25
+Setting cpu: 26
+Setting cpu: 27
+Setting cpu: 28
+Setting cpu: 29
+Setting cpu: 30
+Setting cpu: 31
+Setting cpu: 32
+Setting cpu: 33
+Setting cpu: 34
+Setting cpu: 35
+Setting cpu: 36
+Setting cpu: 37
+Setting cpu: 38
+Setting cpu: 39
+Setting cpu: 40
+Setting cpu: 41
+Setting cpu: 42
+Setting cpu: 43
+Setting cpu: 44
+Setting cpu: 45
+Setting cpu: 46
+Setting cpu: 47
+
+=== Run the command. ===
+
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153887, 176.70, 8.3433, 1.2331, 0.3066 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1394646, 161329, 40000, 9198, 1656 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 447267, 92.67, 4.2159, 0.6196, 0.1557 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3314, 184.25, 71.89, 39.00, 24.64 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178568, 14313, 7435, 5023, 3789 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153385, 176.44, 8.3267, 1.2285, 0.3072 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1389919, 161716, 39969, 9210, 1657 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445298, 92.76, 4.2052, 0.6225, 0.1556 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3313, 185.25, 72.16, 39.02, 24.58 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178564, 14308, 7423, 5004, 3783 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153652, 176.42, 8.3311, 1.2319, 0.3063 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1390065, 161817, 39775, 9206, 1658 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445259, 92.64, 4.2078, 0.6200, 0.1557 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3313, 185.29, 72.15, 39.08, 24.61 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178593, 14221, 7382, 4983, 3763 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 152961, 176.29, 8.3342, 1.2321, 0.3064 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1393415, 161285, 40056, 9203, 1655 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445506, 92.50, 4.2050, 0.6217, 0.1556 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3313, 185.31, 71.90, 38.93, 24.57 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178654, 14289, 7423, 5007, 3779 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153616, 176.65, 8.3301, 1.2316, 0.3067 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1393668, 161542, 40033, 9204, 1657 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 446581, 92.80, 4.2003, 0.6218, 0.1556 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3313, 185.25, 72.16, 38.98, 24.57 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178701, 14327, 7436, 5022, 3790 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153876, 176.57, 8.3350, 1.2333, 0.3063 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1394207, 161480, 40044, 9181, 1605 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 447231, 92.79, 4.2111, 0.6213, 0.1557 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3314, 185.34, 72.18, 39.12, 24.64 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178681, 14310, 7422, 5012, 3783 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153524, 176.52, 8.3309, 1.2297, 0.3074 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1394729, 161506, 38892, 9197, 1625 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 447334, 92.56, 4.2103, 0.6225, 0.1555 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3314, 184.74, 71.78, 39.06, 24.61 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178713, 14302, 7426, 5014, 3786 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 152503, 176.43, 8.3271, 1.2294, 0.3058 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1394636, 161513, 40049, 9207, 1657 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 446270, 92.75, 4.2026, 0.6206, 0.1556 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3313, 185.33, 72.14, 39.11, 24.64 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178724, 14339, 7443, 5027, 3795 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153673, 176.39, 8.3375, 1.2331, 0.3062 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1393856, 161496, 40030, 9201, 1659 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445898, 92.68, 4.2092, 0.6221, 0.1556 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3311, 185.22, 72.16, 39.11, 24.62 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178549, 14357, 7445, 5030, 3796 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153690, 176.51, 8.3450, 1.2328, 0.3065 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1393907, 161374, 40048, 9203, 1657 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 446051, 92.66, 4.2126, 0.6203, 0.1556 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3314, 185.21, 72.17, 39.12, 24.64 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178665, 14319, 7427, 5017, 3786 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153797, 176.57, 8.3348, 1.2332, 0.3065 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1389808, 161556, 39880, 9187, 1659 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445526, 92.50, 4.2091, 0.6225, 0.1558 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3312, 185.13, 71.95, 39.01, 24.57 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178633, 14309, 7428, 5009, 3790 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153281, 176.63, 8.3387, 1.2329, 0.3064 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1388509, 161764, 39996, 9190, 1657 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445650, 92.68, 4.2103, 0.6209, 0.1558 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3313, 185.16, 72.17, 39.11, 24.63 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178565, 14283, 7413, 5007, 3781 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153246, 176.14, 8.3038, 1.2270, 0.3059 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1374904, 160972, 39823, 9188, 1655 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 444557, 92.74, 4.1963, 0.6201, 0.1554 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3313, 184.82, 72.14, 39.10, 24.61 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178384, 14341, 7445, 5028, 3795 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153648, 176.45, 8.3285, 1.2312, 0.3063 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1394585, 161136, 39965, 9194, 1651 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 446692, 92.62, 4.2056, 0.6189, 0.1556 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3314, 185.01, 72.17, 38.97, 24.59 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178572, 14289, 7422, 5012, 3783 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153779, 176.11, 8.3161, 1.2285, 0.3060 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1394392, 161559, 40007, 9210, 1659 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445856, 92.76, 4.2045, 0.6207, 0.1557 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3309, 184.96, 71.88, 38.87, 24.54 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178694, 14332, 7443, 5022, 3794 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153423, 176.70, 8.3348, 1.2327, 0.3069 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1391130, 161789, 39947, 9176, 1658 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 444856, 92.61, 4.2067, 0.6218, 0.1557 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3311, 184.98, 72.15, 39.10, 24.63 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178507, 14301, 7400, 5004, 3772 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153792, 176.32, 8.3350, 1.2332, 0.3065 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1393927, 161542, 40007, 9219, 1657 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 446313, 92.85, 4.2089, 0.6191, 0.1556 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3312, 185.34, 72.17, 39.00, 24.62 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178711, 14305, 7442, 5025, 3795 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153507, 176.35, 8.3391, 1.2285, 0.3072 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1395478, 161549, 39948, 9200, 1655 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 446065, 92.65, 4.2081, 0.6215, 0.1554 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3313, 184.94, 72.17, 39.12, 24.59 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178668, 14251, 7388, 4993, 3764 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153367, 176.27, 8.3418, 1.2301, 0.3065 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1394161, 161277, 39975, 9203, 1657 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 447216, 92.81, 4.2095, 0.6209, 0.1557 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3312, 185.19, 72.16, 39.11, 24.62 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178689, 14341, 7441, 5025, 3793 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153418, 175.61, 8.2803, 1.2176, 0.3054 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1395352, 161482, 39973, 9203, 1658 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445577, 92.41, 4.2067, 0.6207, 0.1554 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3315, 185.32, 72.13, 39.05, 24.46 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178670, 14343, 7449, 5027, 3796 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153661, 176.59, 8.3126, 1.2316, 0.3061 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1391685, 161827, 39868, 9190, 1656 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 446169, 92.51, 4.1965, 0.6185, 0.1549 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3312, 185.42, 71.88, 39.08, 24.62 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178650, 14322, 7438, 5022, 3790 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153566, 176.58, 8.3275, 1.2318, 0.3064 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1391473, 161877, 39932, 9201, 1658 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 446218, 92.36, 4.1919, 0.6171, 0.1552 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3312, 185.48, 72.13, 38.97, 24.56 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178641, 14331, 7441, 5022, 3790 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153746, 175.27, 8.2972, 1.2237, 0.3054 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1391826, 161542, 39708, 9195, 1653 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445095, 92.23, 4.1931, 0.6202, 0.1548 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3313, 184.89, 71.94, 38.97, 24.53 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178610, 14339, 7421, 5018, 3784 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 150833, 176.38, 8.3377, 1.2276, 0.3067 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1391691, 161938, 40016, 9145, 1646 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 444669, 92.68, 4.2154, 0.6224, 0.1556 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3314, 184.23, 72.17, 39.09, 24.63 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178679, 14329, 7430, 5020, 3788 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153581, 176.41, 8.3369, 1.2323, 0.3065 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1391397, 161687, 39912, 9194, 1660 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445380, 92.45, 4.2136, 0.6214, 0.1557 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3312, 184.93, 71.81, 39.05, 24.63 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178541, 14332, 7417, 5016, 3783 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 152950, 176.12, 8.3141, 1.2300, 0.3057 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1384317, 161795, 39833, 9201, 1659 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445121, 92.60, 4.2109, 0.6212, 0.1558 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3312, 185.21, 72.17, 39.07, 24.63 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178648, 14319, 7432, 5019, 3794 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153723, 176.00, 8.3315, 1.2321, 0.3065 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1394301, 161240, 40006, 8793, 1655 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 446174, 92.80, 4.2077, 0.6211, 0.1555 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3312, 184.06, 72.17, 39.12, 24.64 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178578, 14296, 7420, 5016, 3784 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153614, 176.30, 8.3294, 1.2322, 0.3057 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1395457, 161507, 40062, 9197, 1658 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 446769, 92.67, 4.2123, 0.6205, 0.1556 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3314, 185.25, 72.16, 39.06, 24.62 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178716, 14260, 7418, 5009, 3781 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153609, 176.25, 8.3302, 1.2311, 0.3064 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1394773, 160707, 39982, 9209, 1658 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445962, 92.28, 4.1909, 0.6179, 0.1549 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3313, 185.03, 71.87, 38.94, 24.52 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178632, 14351, 7449, 5028, 3797 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+drake_det_lu_rate = [ 153448, 175.57, 8.2582, 1.2217, 0.3040 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+drake_det_minor_rate = [ 1394069, 161460, 40002, 9212, 1651 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+drake_mat_mul_rate = [ 445904, 92.14, 4.1891, 0.6174, 0.1548 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+drake_ode_rate = [ 3314, 184.85, 71.89, 38.92, 24.51 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+drake_poly_rate = [ 178640, 14345, 7447, 5029, 3796 ]
+No memory leak detected
+memory allocated at end of last cppad speed test = 5741
+speed main: OK
+
+=== Restore CPU speed settings. ===
+
+Setting cpu: 0
+Setting cpu: 1
+Setting cpu: 2
+Setting cpu: 3
+Setting cpu: 4
+Setting cpu: 5
+Setting cpu: 6
+Setting cpu: 7
+Setting cpu: 8
+Setting cpu: 9
+Setting cpu: 10
+Setting cpu: 11
+Setting cpu: 12
+Setting cpu: 13
+Setting cpu: 14
+Setting cpu: 15
+Setting cpu: 16
+Setting cpu: 17
+Setting cpu: 18
+Setting cpu: 19
+Setting cpu: 20
+Setting cpu: 21
+Setting cpu: 22
+Setting cpu: 23
+Setting cpu: 24
+Setting cpu: 25
+Setting cpu: 26
+Setting cpu: 27
+Setting cpu: 28
+Setting cpu: 29
+Setting cpu: 30
+Setting cpu: 31
+Setting cpu: 32
+Setting cpu: 33
+Setting cpu: 34
+Setting cpu: 35
+Setting cpu: 36
+Setting cpu: 37
+Setting cpu: 38
+Setting cpu: 39
+Setting cpu: 40
+Setting cpu: 41
+Setting cpu: 42
+Setting cpu: 43
+Setting cpu: 44
+Setting cpu: 45
+Setting cpu: 46
+Setting cpu: 47
