@@ -1,0 +1,608 @@
+
+=== Validate input. ===
+
+
+=== Validate environment. ===
+
+
+=== Validate sudo access, to avoid later interruptions. ===
+
+
+=== Install tools for CPU speed control. ===
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+linux-tools-4.15.0-136-generic is already the newest version (4.15.0-136.140).
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+
+=== Wait for lingering activity to subside. ===
+
+
+=== Control CPU speed variation. ===
+
+Setting cpu: 0
+Setting cpu: 1
+Setting cpu: 2
+Setting cpu: 3
+Setting cpu: 4
+Setting cpu: 5
+Setting cpu: 6
+Setting cpu: 7
+Setting cpu: 8
+Setting cpu: 9
+Setting cpu: 10
+Setting cpu: 11
+Setting cpu: 12
+Setting cpu: 13
+Setting cpu: 14
+Setting cpu: 15
+Setting cpu: 16
+Setting cpu: 17
+Setting cpu: 18
+Setting cpu: 19
+Setting cpu: 20
+Setting cpu: 21
+Setting cpu: 22
+Setting cpu: 23
+Setting cpu: 24
+Setting cpu: 25
+Setting cpu: 26
+Setting cpu: 27
+Setting cpu: 28
+Setting cpu: 29
+Setting cpu: 30
+Setting cpu: 31
+Setting cpu: 32
+Setting cpu: 33
+Setting cpu: 34
+Setting cpu: 35
+Setting cpu: 36
+Setting cpu: 37
+Setting cpu: 38
+Setting cpu: 39
+Setting cpu: 40
+Setting cpu: 41
+Setting cpu: 42
+Setting cpu: 43
+Setting cpu: 44
+Setting cpu: 45
+Setting cpu: 46
+Setting cpu: 47
+
+=== Run the command. ===
+
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1121213, 37884, 6433, 2113, 939.53 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24874751, 6706930, 2247347, 681696, 153623 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20059231, 48640, 7784, 2524, 1115 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170211, 25238, 13711, 9437, 7175 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26982274, 10627281, 6491301, 4604883, 3599068 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.72, 5.4757, 1.0720, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17719, 4370, 1928, 1075, 681.59 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1124408, 36178, 6438, 2094, 940.16 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24947983, 6726171, 2261936, 681938, 155969 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20555896, 48708, 7802, 2528, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 168126, 24438, 13707, 9435, 7172 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 27048715, 10621481, 6490193, 4537031, 3607824 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.77, 5.4756, 1.0722, 0.3371, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17624, 4322, 1923, 1075, 681.47 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1103850, 37898, 6428, 2112, 939.84 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24916220, 6726180, 2261853, 679569, 156107 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20411601, 48713, 7806, 2525, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170093, 25232, 13649, 9397, 7188 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 27051087, 10645547, 6491668, 4612131, 3611679 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.77, 5.4752, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 16987, 4205, 1849, 1029, 650.88 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1121690, 37799, 6284, 2110, 938.86 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24753866, 6622578, 2245814, 683767, 156130 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20327708, 48619, 7788, 2523, 1115 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170612, 25212, 13703, 9437, 7184 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26777920, 10393488, 6460675, 4602549, 3609645 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.74, 5.4748, 1.0719, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17621, 4322, 1924, 1076, 681.43 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1120836, 37780, 6439, 2113, 924.44 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24963919, 6711924, 2255358, 681809, 155969 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20424127, 48620, 7805, 2527, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 169957, 25220, 13704, 9424, 7167 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26947796, 10625571, 6484616, 4574002, 3606532 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.74, 5.4751, 1.0721, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17721, 4383, 1926, 1075, 681.43 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1120277, 37709, 6346, 2112, 937.91 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24002166, 6627250, 2236458, 677612, 155708 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20174145, 48684, 7798, 2525, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170186, 25204, 13705, 9436, 7159 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26293495, 10521709, 6431742, 4579732, 3572590 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.74, 5.4707, 1.0720, 0.3369, 0.1373 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 16092, 3968, 1752, 977.20, 620.26 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1115874, 37766, 6433, 2103, 939.35 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24329618, 6690351, 2249528, 681783, 156113 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20406015, 48675, 7787, 2524, 1115 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170300, 25136, 13709, 9430, 7178 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26987915, 10640417, 6491088, 4593164, 3590376 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.75, 5.4718, 1.0720, 0.3369, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17607, 4376, 1927, 1076, 681.91 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1120498, 37861, 6437, 2115, 938.08 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24621485, 6714774, 2253726, 681902, 153562 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20094228, 48614, 7785, 2523, 1114 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170212, 25235, 13710, 9439, 7176 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26768290, 10455230, 6491263, 4613287, 3607904 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.76, 5.4759, 1.0722, 0.3371, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17721, 4374, 1928, 1075, 681.16 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1118358, 37767, 6440, 2107, 940.25 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24858069, 6728834, 2262127, 681612, 156004 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20460448, 48717, 7802, 2528, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170069, 25018, 13704, 9435, 7178 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 27051311, 10652542, 6491145, 4586533, 3602298 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.72, 5.4741, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17645, 4383, 1929, 1076, 680.18 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1121757, 37794, 6442, 2086, 939.85 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24890085, 6691825, 2261606, 681900, 155770 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20411726, 48708, 7806, 2526, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 168881, 25069, 13706, 9434, 7183 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26725399, 10513563, 6488658, 4609184, 3609464 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.77, 5.4722, 1.0722, 0.3370, 0.1373 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17630, 4380, 1927, 1076, 681.62 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1117684, 37877, 6436, 2113, 935.57 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24950141, 6725949, 2261654, 681663, 155984 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20511876, 48652, 7808, 2528, 1115 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170229, 25219, 13700, 9433, 7182 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 27051354, 10635789, 6491329, 4480165, 3601457 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.58, 5.4756, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17722, 4356, 1925, 1074, 681.76 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1119011, 37894, 6441, 2115, 939.87 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24778149, 6679514, 2234509, 676650, 156077 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20558323, 48630, 7785, 2524, 1115 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 169759, 25246, 13677, 9394, 7191 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26252383, 10636603, 6490600, 4599391, 3601712 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.82, 5.4756, 1.0722, 0.3368, 0.1373 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17487, 4329, 1907, 1064, 673.86 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1124853, 37865, 6438, 2114, 940.01 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24962490, 6724657, 2261938, 681725, 155760 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20492028, 48563, 7805, 2528, 1116 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170241, 25231, 13657, 9407, 7170 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 27001644, 10651733, 6491257, 4471108, 3599044 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.79, 5.4755, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17729, 4374, 1930, 1075, 682.00 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1125184, 37877, 6316, 2108, 939.66 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24593136, 6586839, 2239169, 682098, 156114 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20377731, 48714, 7807, 2527, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170320, 25209, 13704, 9437, 7182 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 27015685, 10576113, 6449091, 4591097, 3589449 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.75, 5.4753, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17601, 4382, 1929, 1074, 680.96 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1124425, 37832, 6438, 2114, 940.31 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24716530, 6704993, 2252178, 682107, 155882 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20363770, 48654, 7811, 2527, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170181, 25233, 13709, 9425, 7168 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 27018809, 10650049, 6490698, 4612270, 3601395 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.74, 5.4756, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17719, 4380, 1927, 1074, 681.70 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1122027, 37816, 6429, 2112, 938.90 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 23814704, 6706182, 2252502, 682383, 154292 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 19831262, 48492, 7786, 2524, 1115 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170234, 25241, 13668, 9436, 7185 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26834376, 10640642, 6492047, 4600280, 3614726 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.79, 5.4755, 1.0722, 0.3370, 0.1373 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17721, 4375, 1928, 1076, 682.24 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1124567, 37795, 6439, 2090, 939.41 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24981798, 6722136, 2261903, 681922, 155956 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20457889, 48715, 7802, 2527, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 169483, 25029, 13706, 9430, 7058 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 27025783, 10652311, 6491147, 4594200, 3579171 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.74, 5.4753, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17619, 4381, 1925, 1076, 680.86 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1121489, 37909, 6439, 2113, 939.71 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24729619, 6708656, 2229305, 676019, 156174 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20555655, 48632, 7764, 2524, 1115 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 169673, 25237, 13676, 9357, 7145 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26984084, 10620515, 6490806, 4612026, 3568187 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.75, 5.4756, 1.0721, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17730, 4382, 1927, 1076, 681.71 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1124814, 37043, 6443, 2105, 937.94 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24967294, 6724154, 2261966, 682240, 155943 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20312945, 48723, 7803, 2528, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170646, 25170, 13707, 9432, 7173 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 27005070, 10642424, 6486947, 4611391, 3590754 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.73, 5.4751, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17607, 4371, 1926, 1074, 681.24 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1120044, 37792, 6388, 2092, 937.04 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24880981, 6702202, 2247003, 682009, 156047 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20354748, 48624, 7785, 2521, 1115 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170183, 25099, 13712, 9436, 7188 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 27002030, 10640571, 6490671, 4575017, 3600778 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.77, 5.4735, 1.0721, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17560, 4368, 1929, 1076, 680.59 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1124594, 37867, 6426, 2112, 937.56 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24598245, 6666326, 2211666, 678049, 156051 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20368081, 48718, 7801, 2527, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170190, 25237, 13708, 9359, 7134 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26227971, 10596889, 6471196, 4558294, 3600756 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.76, 5.4754, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17728, 4382, 1927, 1075, 681.99 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1124979, 37814, 6432, 2114, 939.77 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24856936, 6728457, 2107864, 673001, 156035 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20361301, 48724, 7804, 2527, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170140, 25236, 13699, 9403, 6980 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26746790, 10644637, 6467733, 4550815, 3578012 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.71, 5.4752, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17726, 4380, 1925, 1074, 681.29 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1120022, 37872, 6436, 2114, 940.13 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24887861, 6684807, 2213420, 676686, 156082 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20476934, 48624, 7786, 2524, 1114 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 169649, 25231, 13700, 9419, 7176 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26996728, 10629433, 6455361, 4601057, 3594068 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 91.86, 5.4238, 1.0623, 0.3339, 0.1362 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17725, 4381, 1930, 1075, 681.26 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1117314, 37802, 6443, 2115, 937.43 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24082357, 6703676, 2247307, 682029, 156063 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20481342, 48578, 7785, 2524, 1115 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 169668, 25136, 13712, 9427, 7180 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26980422, 10652672, 6490829, 4476599, 3597998 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.76, 5.4756, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17622, 4378, 1928, 1076, 680.73 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1124001, 37870, 6430, 2111, 938.36 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24995555, 6726908, 2260968, 681707, 153946 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20395313, 48560, 7805, 2528, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170226, 25233, 13655, 9431, 7174 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26945874, 10635018, 6490833, 4612241, 3606866 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.77, 5.4755, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17723, 4367, 1929, 1076, 681.61 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1124779, 37879, 6434, 2104, 938.60 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24975931, 6724986, 2257560, 682424, 155931 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20338832, 48719, 7804, 2527, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170248, 25236, 13707, 9415, 7171 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 25945748, 10394366, 6447300, 4545189, 3570088 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.78, 5.4756, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17717, 4376, 1924, 1074, 679.72 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1123783, 37757, 6358, 2111, 939.30 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24893200, 6718217, 2263793, 681891, 155984 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20068694, 48463, 7771, 2523, 1116 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170226, 25229, 13704, 9430, 7070 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26496767, 10600445, 6477465, 4575246, 3591337 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.75, 5.4758, 1.0722, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17697, 4343, 1926, 1075, 681.80 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1121761, 37863, 6378, 2114, 939.31 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24876104, 6716331, 2230176, 678336, 156094 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20421741, 48722, 7800, 2528, 1116 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 166732, 25155, 13666, 9378, 7156 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26256057, 10661896, 6498969, 4590158, 3611562 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.74, 5.4753, 1.0722, 0.3371, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17728, 4383, 1926, 1075, 681.50 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1124067, 37848, 6441, 2109, 940.47 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24965195, 6727968, 2259495, 681606, 147029 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20414061, 48567, 7805, 2528, 1117 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170256, 25231, 13278, 9417, 7172 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26974283, 10634945, 6491104, 4611832, 3606066 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.77, 5.4757, 1.0722, 0.3371, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17724, 4335, 1927, 1075, 681.89 ]
+Memory leak detected
+speed main: Error
+det_lu_size = [ 1, 11, 21, 31, 41 ]
+double_det_lu_rate = [ 1119254, 37886, 6386, 2115, 940.57 ]
+det_minor_size = [ 1, 2, 3, 4, 5 ]
+double_det_minor_rate = [ 24875232, 6712573, 2247360, 681832, 151157 ]
+mat_mul_size = [ 1, 11, 21, 31, 41 ]
+double_mat_mul_rate = [ 20154551, 48625, 7780, 2517, 1115 ]
+ode_size = [ 1, 11, 21, 31, 41 ]
+double_ode_rate = [ 170075, 25240, 13712, 9439, 7168 ]
+poly_size = [ 1, 11, 21, 31, 41 ]
+double_poly_rate = [ 26126346, 10599276, 6476563, 4562924, 3585152 ]
+sparse_hessian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_hessian_rate = [ 92.79, 5.4752, 1.0721, 0.3370, 0.1374 ]
+sparse_jacobian_size = [ 150, 600, 1350, 2400, 3750 ]
+double_sparse_jacobian_rate = [ 17714, 4381, 1928, 1074, 681.60 ]
+Memory leak detected
+speed main: Error
+
+=== Restore CPU speed settings. ===
+
+Setting cpu: 0
+Setting cpu: 1
+Setting cpu: 2
+Setting cpu: 3
+Setting cpu: 4
+Setting cpu: 5
+Setting cpu: 6
+Setting cpu: 7
+Setting cpu: 8
+Setting cpu: 9
+Setting cpu: 10
+Setting cpu: 11
+Setting cpu: 12
+Setting cpu: 13
+Setting cpu: 14
+Setting cpu: 15
+Setting cpu: 16
+Setting cpu: 17
+Setting cpu: 18
+Setting cpu: 19
+Setting cpu: 20
+Setting cpu: 21
+Setting cpu: 22
+Setting cpu: 23
+Setting cpu: 24
+Setting cpu: 25
+Setting cpu: 26
+Setting cpu: 27
+Setting cpu: 28
+Setting cpu: 29
+Setting cpu: 30
+Setting cpu: 31
+Setting cpu: 32
+Setting cpu: 33
+Setting cpu: 34
+Setting cpu: 35
+Setting cpu: 36
+Setting cpu: 37
+Setting cpu: 38
+Setting cpu: 39
+Setting cpu: 40
+Setting cpu: 41
+Setting cpu: 42
+Setting cpu: 43
+Setting cpu: 44
+Setting cpu: 45
+Setting cpu: 46
+Setting cpu: 47

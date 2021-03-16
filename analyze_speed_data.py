@@ -16,6 +16,7 @@ CASES = [
 
 LIBS = [
     "drake",
+    "double",
     "cppad",
 ]
 
